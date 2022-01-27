@@ -2,16 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import JavaScriptX from './JavaScriptX';
+import Render from './Render';
+import StateAndLifecycle from './StateAndLifecycle';
+import HandlingEvents from './HandlingEvents';
+import ConditionalRendering from './ConditionalRendering';
+import Page from './Page';
+import ListAndKeys from './ListAndKeys';
+import Forms from './Forms';
+import FormEssay from './FormEssay';
+import SelectForm from './SelectForm';
+import FileForm from './FileForm';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <JavaScriptX />
+    <Render />
+    <StateAndLifecycle />
+    <HandlingEvents />
+    <ConditionalRendering />
+    <Page />
+    <ListAndKeys />
+    <Forms />
+    <FormEssay />
+    <SelectForm />
+    <FileForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
