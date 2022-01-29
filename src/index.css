@@ -24,3 +24,12 @@ code {
   font-family: Ahem sans-serif;
 }
 
+fieldset{
+  background-color: rgb(173, 136, 195);
+}
+legend{
+  background-color : rgb(162, 0, 255);
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}

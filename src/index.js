@@ -13,6 +13,7 @@ import Forms from './Forms';
 import FormEssay from './FormEssay';
 import SelectForm from './SelectForm';
 import FileForm from './FileForm';
+import LiftStateUp from './LiftStateUp';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +29,7 @@ ReactDOM.render(
     <FormEssay />
     <SelectForm />
     <FileForm />
+    <LiftStateUp />
   </React.StrictMode>,
   document.getElementById('root')
 );
