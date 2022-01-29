@@ -1,35 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.wath h2{
-  width : 200px;
-  background-color : rgba(189, 90, 255, 0.411);
+.wath h2 {
+  width: 200px;
+  background-color: rgba(189, 90, 255, 0.411);
   padding: 20px;
   border: 2px solid rgb(183, 0, 255);
-  color : rgb(183, 0, 255);
+  color: rgb(183, 0, 255);
   border-radius: 5px;
   text-align: center;
   margin-left: 100px;
   font-family: Ahem sans-serif;
 }
 
-fieldset{
+fieldset {
   background-color: rgb(173, 136, 195);
 }
-legend{
-  background-color : rgb(162, 0, 255);
+legend {
+  background-color: rgb(162, 0, 255);
   padding: 10px;
   color: white;
   border-radius: 4px;
+}
+
+.paraz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myPara {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  background: rgb(225, 223, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(225, 223, 255, 1) 0%,
+    rgba(255, 255, 255, 0.9612219887955182) 0%,
+    rgba(231, 251, 255, 0.8547794117647058) 100%
+  );
+  border-radius: 6px;
+  -webkit-box-shadow: 8px 9px 29px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 9px 29px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 8px 9px 29px -2px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-weight: 600;
 }
