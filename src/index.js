@@ -15,6 +15,8 @@ import SelectForm from './SelectForm';
 import FileForm from './FileForm';
 import LiftStateUp from './LiftStateUp';
 import Comp from './Comp';
+import HooksStart from './HooksStart';
+import Hook1 from './Hook1';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -32,6 +34,8 @@ ReactDOM.render(
     <FileForm />
     <LiftStateUp />
     <Comp />
+    <HooksStart />
+    <Hook1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
