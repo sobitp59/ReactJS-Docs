@@ -17,6 +17,7 @@ import LiftStateUp from './LiftStateUp';
 import Comp from './Comp';
 import HooksStart from './HooksStart';
 import Hook1 from './Hook1';
+import UseState from './UseState';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +37,7 @@ ReactDOM.render(
     <Comp />
     <HooksStart />
     <Hook1 />
+    <UseState />
   </React.StrictMode>,
   document.getElementById('root')
 );
