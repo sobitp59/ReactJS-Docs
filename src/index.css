@@ -67,3 +67,10 @@ h2, h3{
   justify-content: center;
   align-items: center;
 }
+
+.useStateClass{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
