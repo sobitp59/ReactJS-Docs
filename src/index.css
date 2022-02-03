@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@600&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(139, 9, 246);
 }
 
 code {
@@ -81,4 +82,15 @@ h2, h3{
   justify-content: center;
   align-items: center;
 
+}
+
+button{
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(128, 128, 128, 0.671);
+  font-weight: 600;
 }
