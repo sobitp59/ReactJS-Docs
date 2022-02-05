@@ -19,6 +19,8 @@ import HooksStart from './HooksStart';
 import Hook1 from './Hook1';
 import UseState from './UseState';
 import UseEffect from './UseEffect';
+import CustomHooks from './CustomHooks';
+import CustomHooks2 from './CustomHooks2';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -40,6 +42,8 @@ ReactDOM.render(
     <Hook1 />
     <UseState />
     <UseEffect />
+    <CustomHooks />
+    <CustomHooks2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
